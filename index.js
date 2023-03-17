@@ -56,7 +56,7 @@ function getIcon(source_type) {
     case "instagram":
       return "./instagram-logo.svg";
     case "facebook":
-      return "./facebook.svg";
+      return "https://github.com/MallevS/frontendchallenge.github.io/blob/main/icons/facebook.svg";
     default:
       return "";
   }
