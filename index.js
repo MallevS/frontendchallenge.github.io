@@ -54,9 +54,9 @@ fetch('./data.json')
 function getIcon(source_type) {
   switch (source_type) {
     case "instagram":
-      return "../icons/instagram-logo.svg";
+      return "instagram-logo.svg";
     case "facebook":
-      return "../icons/facebook.svg";
+      return "facebook.svg";
     default:
       return "";
   }
