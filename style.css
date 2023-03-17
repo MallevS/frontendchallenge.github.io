@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+ .container {
+    display: flex;
+    height: calc(100vh + auto); 
+} 
+
+.sidebar {
+    background: #ffffff;
+    margin: 15px;
+    width: 340px;
+    color: #464b5b;
+}
+
+.preview {
+    background: #f9fafd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #464b5b;
+}
+
+.accordion {
+    background: #e6ebff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.accordion-title {
+    color: #0033ff;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #d6dae4;
+    border-radius: 3px;
+    padding: 6px 12px;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.radio-select {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d6dae4;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+    margin: 15px;
+    padding: 20px;
+    width: 500px;
+    height: 710px;
+    white-space: inherit;
+    position: relative;
+  } 
+  
+   .card img {
+    height: 200px; 
+  } 
+
+  .card-profile-image {
+    clip-path: circle();
+    width: 60px;
+    height: 60px;
+    object-fit: cover; 
+  } 
+
+  .card-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-profile-image {
+    clip-path: circle();
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    object-fit: contain;
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+  
+  .card-profile-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .card-profile-date {
+    font-size: 14px;
+    margin: 0;
+    color: gray;
+  }
+
+  .card-profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .card-info img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-left: 25px;
+  } 
+
+  .card-caption{
+    padding: -50px;
+  }
+
+  .like-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .like-icon.liked {
+    color: red;
+    border-color: red;
+  }
+  
+  .like-icon {
+    user-select: none;
+  }
+
+  #debug {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-details-icon {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  .dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+
+  
